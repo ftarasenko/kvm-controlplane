@@ -1,0 +1,5 @@
+auto br-pxe
+iface br-pxe inet static
+bridge_ports bond0
+address 10.1.38.15/24
+post-up sleep 45

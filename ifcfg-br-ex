@@ -1,0 +1,5 @@
+auto br-ex
+iface br-ex inet static
+bridge_ports bond0.4001 
+address 212.45.15.166/25
+gateway 212.45.15.254

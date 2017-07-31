@@ -1,0 +1,11 @@
+auto bond0
+iface bond0 inet manual
+bond-slaves enp6s0f0 enp6s0f1
+bond-mode 802.3ad
+bond-miimon 100
+bond-use-carrier 1
+bond-lacp-rate fast
+bond-updelay 3000
+bond-downdelay 1000
+bond-ad-select bandwidth
+bond-xmit-hash-policy layer2+3
